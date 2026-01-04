@@ -1,22 +1,16 @@
-<form ="/submit" method="Post">
-  <label for="username">名前:</label>
-  <input type="text" id="username" name="username" placeholder="名前を入力" required>
-  <label for="password">パスワード:</label>
-  <input type="password" id="password" name="password" placeholder="パスワードを入力" required>
-  
-  <p>性別を選択:</p>
-  <label>
-    <input type="radio" name="gender" value="male" required> 男
-  </label>
-  <label>
-    <input type="radio" name="gender" value="female" required> 女
-  </label>
-  <br>
-  
-  <label>
-    <input type="checkbox" name="subscribe" value="yes"> ニュースレターを購読する
-  </label>
-  
+<form action="/submit" method="POST">
+  <label for="feedback">フィードバック:</label>
+  <div>
+  <textarea id="feedback" name="feedback" rows="5" placeholder="フィードバックをここに入力してください"></textarea>
+  </div>
+  <label for="transport">交通手段を選択:</label>
+  <select id="transport" name="transport">
+    <option value="car">車</option>
+    <option value="bike">自転車</option>
+    <option value="train">電車</option>
+    <option value="bus">バス</option>
+    <option value="plane">飛行機</option>
+  </select>
+
   <input type="submit" value="送信">
 </form>
-  
