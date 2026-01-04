@@ -1,16 +1,8 @@
-<form action="/submit" method="POST">
-  <label for="feedback">フィードバック:</label>
-  <div>
-  <textarea id="feedback" name="feedback" rows="5" placeholder="フィードバックをここに入力してください"></textarea>
-  </div>
-  <label for="transport">交通手段を選択:</label>
-  <select id="transport" name="transport">
-    <option value="car">車</option>
-    <option value="bike">自転車</option>
-    <option value="train">電車</option>
-    <option value="bus">バス</option>
-    <option value="plane">飛行機</option>
-  </select>
+<h1>ユーザー登録</h1>
+
+<form action="/submit" method="post">
+  <label for="username">ユーザー名:</label>
+  <input type="text" id="username" name="username" placeholder="ユーザー名を登録してください" minlength="4" maxlength="10" required>
 
   <input type="submit" value="送信">
 </form>
