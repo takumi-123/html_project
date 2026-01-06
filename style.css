@@ -1,23 +1,47 @@
-html {
-    font-size: 24;
-}
-
-h1 {
-    color: green;
-    background-color: blue;
-    font-size: 1rem;
-}
-
-h3 {
-    background-color: rgb(0, 100, 0);
-    font-size: 0.75rem;
-}
-
 p {
-    color: #000800;
-    font-size: 0.5em;
+    background-color: blue;
 }
 
-span {
+.white {
+    color: white;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
     color: red;
+}
+
+li {
+    font-size: 16px;
+}
+
+.string-yellow {
+    color: yellow;
+}
+
+.string-blue {
+    color: blue;
+}
+
+.string-red {
+    color: red;
+}
+
+.back-gray {
+    background-color: gray;
+}
+
+.back-green {
+    background-color: green;
+}
+
+.back-brown {
+    background-color: brown;
+}
+
+#small {
+    font-size: 12px;
 }
