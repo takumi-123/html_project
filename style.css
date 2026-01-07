@@ -1,27 +1,22 @@
-.tbody {
-    font-size: 20px;
+h1 {
+    font-size: 32px;
+    color: white;
+    background-color: midnightblue;
+    text-align: center;
 }
 
-span {
-    color: #ffc0cb;
-    display: inline-block;
-    height: 28px;
+div {
+    height: 50px;
 }
 
-.temperature {
-    background-color: #ffc0cb;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
+h3 {
+    color: white;
+    background-color: #3776AB;
+    text-align: center;
 }
 
-.humidity {
-    background-color: #add8e6;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-}
-
-img {
-    display: block;
+p {
+    color: white;
+    background-color: #3776AB;
+    text-align: center;
 }
