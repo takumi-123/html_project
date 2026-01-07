@@ -1,43 +1,29 @@
-* {
-  padding: 0;
-  margin: 0;
+input, button {
+  display: block;
+  margin: 10px 0;
 }
 
-header {
-  text-align: center;
-  background-color: darkblue;
-  color: white;
-  position: sticky;
-  top: 0;
-  opacity: 0.9;
+button {
+  width: 48px;
+  border-radius: 5px;
+  border: black solid 1px;
+  background-color: #FFFFE0
 }
 
-main {
-  text-align: center;
+input {
+  height: 24px;
+  outline: gray solid 1px;
+  border-radius: 5px;
+  background-color: #EFFFE0;
+  border: none;
 }
 
-.container {
-  margin: 32px 0;
+input:focus {
+    background-color: #CCFFCC;
+    outline-color: green:
 }
 
-.inner-container {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-  outline: 1px darkgray solid;
-  margin: 0 20px;
-  background-color: wheat;
-}
-
-img {
-  margin-top: 24px;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-
-footer {
-  text-align: center;
-  font-size: 12px;
-  margin-top: 32px;
+button:hover {
+    background-color: #ffffa8;
+    width: 52px;
 }
