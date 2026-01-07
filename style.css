@@ -1,22 +1,12 @@
-h1 {
-    font-size: 32px;
-    color: white;
-    background-color: midnightblue;
-    text-align: center;
-}
-
-div {
-    height: 50px;
-}
-
-h3 {
-    color: white;
-    background-color: #3776AB;
-    text-align: center;
-}
-
 p {
+    display: inline-block;
+    background-color: #00008B;
     color: white;
-    background-color: #3776AB;
+    width: 160px;
     text-align: center;
+    padding: 10px 0;
+    margin-right: 20px;
+    border-style: dotted ridge ridge solid;
+    border-color: yellow yellow red yellow;
+    border-width: 5px 10px 10px 5px;
 }
