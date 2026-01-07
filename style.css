@@ -1,16 +1,40 @@
-.container {
-  width: 1200px;
-  margin: auto;
-  background-color: cadetblue;
-  display: grid;
-  grid-template-rows: 100px 100px 100px;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: stretch;
-  gap: 10px 150px;
+div > div {
+  text-align: center;
 }
 
-div div {
-  outline: 1px black solid;
-  background-color: bisque;
-  text-align: center;
+.item1 {
+  background-color: darkkhaki;
+}
+
+.item2 {
+  background-color: aqua;
+  grid-row: spam2;
+}
+
+.item3 {
+  background-color: blueviolet;
+  grid-column: 1;
+  grid-row: 3 / span2;
+}
+
+.item4 {
+  background-color: green;
+  grid-column: 3;
+}
+
+.item5 {
+  background-color: cadetblue;
+  grid-column: 3;
+}
+
+.item6 {
+  background-color: crimson;
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
 }
