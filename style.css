@@ -1,40 +1,21 @@
-div > div {
+img {
+  border: 2px solid black;
+  border-radius: 20%;
+  width: 200px;
+  margin-bottom: 16px;
+}
+
+footer {
+  font-size: 14px;
+  color: gray;
+  margin-top: 20px;
+}
+
+body {
+  padding: 16px;
   text-align: center;
 }
 
-.item1 {
-  background-color: darkkhaki;
-}
-
-.item2 {
-  background-color: aqua;
-  grid-row: spam2;
-}
-
-.item3 {
-  background-color: blueviolet;
-  grid-column: 1;
-  grid-row: 3 / span2;
-}
-
-.item4 {
-  background-color: green;
-  grid-column: 3;
-}
-
-.item5 {
-  background-color: cadetblue;
-  grid-column: 3;
-}
-
-.item6 {
-  background-color: crimson;
-  grid-row: span 2;
-  grid-column: span 2;
-}
-
-.container {
-  display: grid;
-  grid-template-rows: 100px 100px 100px 100px;
-  grid-template-columns: 100px 100px 100px;
+h1 {
+  margin-bottom: 16px;
 }
